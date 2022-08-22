@@ -1,0 +1,8 @@
+           function teleportTO(playerCFrame)
+    local plyr = game.Players.LocalPlayer;
+    if plyr.Character then
+        plyr.Character.HumanoidRootPart.CFrame = playerCFrame;
+    end
+end
+teleportTO(game:GetService("Workspace").Items.Battery.Part.CFrame)
+end)
